@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HIIT Programming School</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="static">
+        <div></div>
+      </div>
+      <div class="scan"></div>      
+    <header>
+      <img src="cropped-hiit-logo-1.png" alt="">
+        <div class="container">
+            <ul class="list">
+              <a href="index.html">  <li class="list__item--yellow">
+                <span>Home</span>
+            </li></a>
+               <a href="About.html"> <li class="list__item--blue">
+                <span>About us</span>
+            </li></a>
+              <a href="contact.html">  <li class="list__item--red">
+                <span>Contact</span>
+            </li></a>
+            <a href="course.html">  <li class="list__item--green">
+                <span>Courses</span>
+            </li></a>
+            </ul>
+        </div>
+        <button class="hamburger" id="menuToggle" onclick="toggleMenu()">
+            <span>&#9776;</span>
+        </button>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="close-btn" onclick="toggleSidebar()"></button>
+    </aside>
+
+    <main class="main">
+        <section class="hero">
+            <b class="hit" aria-label="CodePen">
+                <span data-text="H">H</span>
+                <span data-text="I">I</span>
+                <span data-text="I">I</span>
+                <span data-text="T">T</span>
+                <span data-text="P">P</span>
+                <span data-text="l">L</span>
+                <span data-text="c">C</span>
+              </b>
+              
+                
+            <h1>Welcome to HIIT Programming School</h1>
+            <p class="learn">Learn programming from the best instructors. Enroll today!</p>
+            <button>Get Started</button><br>
+        </section>
+        <section class="about" id="about">
+            <img class="about-2" src="istockphoto-950039636-612x612.jpg" alt="About Us">
+            <h2>About Us</h2>
+            <p>HIIT Programming School is dedicated to teaching coding skills...</p>
+        </section>
+
+        <section class="courses" id="courses">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course">
+                    <h3>Web Development</h3>
+                    <p>Learn HTML, CSS, JavaScript, and more.</p>
+                </div>
+                <div class="course">
+                    <h3>Python Programming</h3>
+                    <p>Master Python for data science and AI.</p>
+                </div>
+            </div>
+            <div class="course-images">
+                <img src="360_F_214879686_R3HFJlk6WLr1kcdvy6Q9rtNASKN0BZBS.jpg" alt="Web Development">
+                <img src="app-development-banner_33099-1720.avif" alt="Mobile Development">
+            </div>
+            <center>
+                <div class="course-images-2">
+                    <img src="data-science-analytics-internet-and-technology-concept-concept-photo.jpg" alt="Data Science">
+                </div>
+            </center>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HIIT Programming School. All rights reserved.</p>
+        <div class="socials">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="Facebook (2).png" alt="Facebook">
+              </a> |         <a href="https://www.linkedin.com" target="_blank">
+                <img src="Linkedin (12).png" alt="LinkedIn">
+              </a> |
+              <a href="https://www.twitter.com" target="_blank">
+                <img src="Twitter (1).png" alt="Twitter">
+              </a> |
+              <a href="https://www.youtube.com" target="_blank">
+                <img src="Youtube (1).png" alt="YouTube">
+              </a> 
+              <div class="pics">
+                <img src="Aldric.jpg" alt="Data Science">
+                <div class="text">
+                    <h1>Aldric</h1>
+                    <h2>Web Developer</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
