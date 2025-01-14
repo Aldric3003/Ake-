@@ -8,7 +8,7 @@ function toggleMenu() {
         menuToggle.innerHTML = "&#9776;"; 
     } else {
         sidebar.style.left = "0px";
-        menuToggle.innerHTML = "&times;";
+        menuToggle.innerHTML = "&times";
     }
 }
 
